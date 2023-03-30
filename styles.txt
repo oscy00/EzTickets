@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Dosis:wght@300&family=M+PLUS+Rounded+1c:wght@500;700&family=Raleway:wght@200&family=Supermercado+One&family=Yellowtail&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: Dosis;
+    font-size: 1em;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.main-header {
+    background-color: rgba(117, 117, 117, 0.367);
+    background-image: url("Images/Sunset.jpeg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+
+.welcome {
+    text-align: center;
+    margin: 0%;
+    font-size: 6.5em;
+    color: rgb(226, 226, 226);
+    font-family: Supermercado One; 
+}
+
+.about {
+    text-align: left;
+    margin: 0%;
+    font-size: 6em;
+    font-family: Dongle;
+    padding: 0 1.5em;
+}
+
+.home-about {
+    text-align: left;
+    margin: 0%;
+    font-size: 2.5em;
+    font-family: M PLUS Rounded 1c;
+}
+
+.content {
+    margin: 10em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+.PFP {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.TopLeftImage {
+    height: 150px;
+    width: 150px;
+    float: left;
+    padding-left: 1%;
+    padding-top: 2%;
+}
+
+.oscy-footer {
+    text-align: center;
+    margin: 0%;
+    font-size: 6.5em;
+    color: rgb(226, 226, 226);
+    font-family: Supermercado One; 
+}
+
+.main-footer {
+    background-color: #7dabfa;
+    color: white;
+    padding: .0 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
